@@ -39,7 +39,7 @@ Subtasks:
     - Prediction results.
     The pretrained model performs with 70% accuracy on the test dataset. Following is the confusion matrix and the major misclassification \
     ![Confusion matrix](pictures/Confusion_matrix.png) \
-    Where the classes represent the numbers in the following way:
+    Where the classes represent the numbers in the following way: \
     0 skin_2 \
     1 small_intestine \
     2 lung \
