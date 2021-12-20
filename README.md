@@ -25,16 +25,16 @@ Subtasks:
         - The results after using the Mobilenet model for transfer learning provided improved results with 89% train accuracy, 80% validation accuracy, and 73% test accuracy.
         - Further steps that can be taken to improve the accuracy:
             - Perform zoom in data augmentation.
-            - Try multiple pretrained models with bigger architecture and find a model that best fits the given image classification task.
-        ![Loss plot](pictures/pretrained_loss.png)
-        ![accuracy plot](pictures/pretrained_acc.png)
+            - Try multiple pretrained models with bigger architecture and find a model that best fits the given image classification task. \
+        ![Loss plot](pictures/pretrained_loss.png) \
+        ![accuracy plot](pictures/pretrained_acc.png) \
 
 2. Visualize:
     - Overlap between training and test datasets in 2D:
      After performing TSNE, the train dataset has a lot of overlap between classes with one exception of "endometrium_2" which is concentrated in at one corner. \
-     ![Train dataset TSNE Visualization](pictures/trainTSNE.png)
+     ![Train dataset TSNE Visualization](pictures/TrainTSNE.png) \
      The test TSNE plot is scattered throughout the plot and there is no visible pattern of classes visible in the plot. \
-     ![Test dataset TSNE Visualization](pictures/testTSNE.png)
+     ![Test dataset TSNE Visualization](pictures/TestTSNE.png)
 
     - Prediction results.
     The pretrained model performs with 70% accuracy on the test dataset. Following is the confusion matrix and the major misclassification \
